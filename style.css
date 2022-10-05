@@ -1,0 +1,13 @@
+.navbar-brand{
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+img.slide{
+    height: 500px;
+    background-size: cover;
+   
+}
+p{
+    font-size: larger;
+}
