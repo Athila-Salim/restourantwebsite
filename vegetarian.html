@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/image1.jpg" type="x-icon" sizes="32x32">
+    <link rel="stylesheet" href="D:\bootstrap-4.0.0-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <title>Restourant Website</title>
+</head>
+<body>
+    <!------Navabar------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand text-white fw-bold" href="#">Homely<font color="red">Tech</font></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-dark"  href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark"  href="#order">Orders</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="#" class="text-dark" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Deals
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="vegetarian.html">Vegetarian</a>
+                <a class="dropdown-item" href="nonveg.html">Non Vegetarian</a>
+                
+                <a class="dropdown-item" href="arabic.html">Arabic food</a>
+              </div>
+            </li>
+            <li class="nav-item" class="text-dark">
+              <a class="nav-link  text-dark disabled" href="#footer">Location</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <section>
+        <div class="background-image">
+          <h1 class="text-center text-white p-5">OUR MENU</h1>
+          <div class="col-sm-12 text-center">
+          <a href="#order" button type="button" class="btn btn-outline-warning">Breakfast</button></a>
+          <a href="#order" button type="button" class="btn btn-outline-warning">Lunch</button></a>
+          <a href="#order" button type="button" class="btn btn-outline-warning">Dinner</button></a>
+          </div>
+          <div class="container" id="order">
+            <h1 class="text-center text-white">Order Your Foods Now..!</h1>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/idli.jpg"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Idli Sambar and chutney</h5>
+                    <h5 class="card-title text-danger">Rs: 69.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/puri.png"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Puri and Bhaji</h5>
+                    <h5 class="card-title text-danger">Rs: 89.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/appam.jpg"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Appam and VgetableStew</h5>
+                    <h5 class="card-title text-danger">Rs: 50.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+              <img class="card-img-top" src="./images/masaladosha.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Masala Dosa</h5>
+                <h5 class="card-title text-danger">Rs: 78.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+              <img class="card-img-top" src="./images/puttu.jpg"  alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Puttu and Kadalacurry</h5>
+                <h5 class="card-title text-danger">Rs: 120.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+              <img class="card-img-top" src="./images/image2.jpg"  alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Chapati and VegetableStew</h5>
+                <h5 class="card-title text-danger">Rs: 89.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          <div class="row my-5">
+            <div class="col-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                <img class="card-img-top" src="./images/sadya.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sadya</h5>
+                  <h5 class="card-title text-danger">Rs: 99.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                <img class="card-img-top" src="./images/meal.jpg"  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Meal</h5>
+                  <h5 class="card-title text-danger">Rs: 89.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                <img class="card-img-top" src="./images/vegbiriyani.jpg"  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Vegetable Biriyani</h5>
+                  <h5 class="card-title text-danger">Rs: 120.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row my-5">
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/paneer.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Kadai Paneer</h5>
+                    <h5 class="card-title text-danger">Rs: 110.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/chilli.jpg"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Chilli Paneer</h5>
+                    <h5 class="card-title text-danger">Rs: 99.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/friedrice.jpg"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Fried Rice</h5>
+                    <h5 class="card-title text-danger">Rs: 120.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                    <img class="card-img-top" src="./images/vegman.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Veg Manchurian</h5>
+                      <h5 class="card-title text-danger">Rs: 105.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                    <img class="card-img-top" src="./images/vegpulao.jpg"  alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Veg Pulao</h5>
+                      <h5 class="card-title text-danger">Rs: 89.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card text-center border-2 border-warning" style="width: 18rem; height: 23rem;">
+                  <img class="card-img-top" src="./images/dumaloo.jpg"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Dum Aloo</h5>
+                    <h5 class="card-title text-danger">Rs: 79.00</h5>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="container-fluid bg-warning" id="footer">
+                <h1 class="text-center">Location</h1>
+                <div class="row">
+                 
+                  <div class="col-6">
+                    <h1 class="text-white">HomelyTech Restourant</h1>
+                    <h4>Kollam,punalur</h4>
+                    <h4>Kerala</h4>
+                    <p>Tel: 9037499846</p>
+                    <p>homelytech@gmail.com</p>
+                    <p>Website: www.homelytech.com</p>
+                  </div>
+          
+                  
+                </div>
+              </div>
+
+              
+
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df737267ac.js" crossorigin="anonymous"></script>
+    <script src="D:\bootstrap-4.0.0-dist\js\bootstrap.js"></script> 
+</body>
+</html>
